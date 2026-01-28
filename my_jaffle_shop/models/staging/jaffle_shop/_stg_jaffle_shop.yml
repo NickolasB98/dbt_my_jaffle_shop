@@ -1,0 +1,40 @@
+models:
+  - name: stg_jaffle_shop__customers
+    description: This model serves as a staging layer for the customers table
+    columns:
+      - name: customer_id
+        description: Primary key for the customers table, also a unique identifier for each customer
+        data_tests:
+          - unique
+          - not_null
+      - name: first_name
+        description: First name of the customer
+      - name: last_name
+        description: Last name of the customer
+
+  - name: stg_jaffle_shop__orders
+    description: This model serves as a staging layer for the orders table
+    columns:
+      - name: order_id
+        description: Primary key for the orders table, also a unique identifier for each order
+        data_tests:
+          - unique
+          - not_null
+      - name: order_status
+        description: "{{ doc('order_status') }}"
+        data_tests:
+          - accepted_values:
+              values:
+                ["placed", "shipped", "completed", "return_pending", "returned"]
+      - name: order_date
+        description: Date the order was placed
+        data_tests:
+          - not_null
+      - name: customer_id
+        description: Foreign key for the customers table, also a unique identifier for each customer
+        data_tests:
+          - relationships:
+              arguments:
+                field: customer_id
+                to: ref('stg_jaffle_shop__customers')
+          - not_null

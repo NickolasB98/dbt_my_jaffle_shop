@@ -1,0 +1,26 @@
+sources:
+  - name: jaffle_shop
+    database: raw
+    schema: jaffle_shop
+    description: "Source tables for the jaffle shop project, existing inside a public s3 bucket"
+    tables:
+      - name: customers
+        description: Raw customer data
+        columns:
+          - name: id
+            description: Primary key for the customers table
+            data_tests:
+              - unique
+              - not_null
+      - name: orders
+        description: Raw order data
+        columns:
+          - name: id
+            description: Primary key for the orders table
+            data_tests:
+              - unique
+              - not_null
+        config:
+          freshness:
+            warn_after: { count: 7, period: day }
+            error_after: { count: 14, period: day }

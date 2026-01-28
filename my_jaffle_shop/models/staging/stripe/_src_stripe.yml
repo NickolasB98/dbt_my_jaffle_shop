@@ -1,0 +1,13 @@
+sources:
+  - name: stripe
+    database: raw
+    schema: stripe
+    description: "Source tables for stripe, existing inside a public s3 bucket"
+    tables:
+      - name: payments
+        columns:
+          - name: id
+            description: Primary key for the payments table
+            data_tests:
+              - unique
+              - not_null
