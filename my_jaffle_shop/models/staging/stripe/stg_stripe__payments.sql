@@ -7,7 +7,8 @@ with source as (
         {{ adapter.quote("ORDERID") }} as order_id,
         {{ adapter.quote("PAYMENTMETHOD") }} as payment_method,
         {{ adapter.quote("STATUS") }} as payment_status,
-        {{ adapter.quote("AMOUNT") }} as amount,
+        -- divide by 100 to convert from cents to dollars
+        ({{ adapter.quote("AMOUNT") }} / 100) as amount,
         {{ adapter.quote("CREATED") }} as created_at,
         {{ adapter.quote("_BATCHED_AT") }} as batched_at
 
