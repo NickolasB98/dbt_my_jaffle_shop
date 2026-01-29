@@ -39,3 +39,9 @@ models:
     # Materialize them as tables to avoid executing views every time they are used
     marts:
       +materialized: table
+
+# views are good for staging layer because they are cheap to create and always up to date (created each time dbt build is run)
+# tables are good for marts because they are faster to query and can be materialized (created once and overwritten with every dbt run)
+
+# + sign means that the configuration applies to all models in the directory
+
