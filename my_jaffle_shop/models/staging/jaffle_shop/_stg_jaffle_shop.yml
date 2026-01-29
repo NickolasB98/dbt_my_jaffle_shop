@@ -24,8 +24,13 @@ models:
         description: "{{ doc('order_status') }}"
         data_tests:
           - accepted_values:
-              values:
-                ["placed", "shipped", "completed", "return_pending", "returned"]
+              config:
+                values:
+                  - "placed"
+                  - "shipped"
+                  - "completed"
+                  - "return_pending"
+                  - "returned"
       - name: order_date
         description: Date the order was placed
         data_tests:
