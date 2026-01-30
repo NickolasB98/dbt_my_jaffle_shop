@@ -31,9 +31,11 @@ final as (
 )
 
 select * from final
+
 {% if is_incremental() %}
     -- this filter will only be applied on an incremental run
-    where order_date >= (select max(order_date) from {{ this }})
+    -- we add 3 days to the max order date to account for any late arriving orders
+    where order_date >= (select dateadd(day, -3, max(order_date)) from {{ this }})
 {% endif %}
 
 order by order_date desc
