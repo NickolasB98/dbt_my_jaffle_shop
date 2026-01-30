@@ -5,4 +5,7 @@ packages:
   - name: dbt_utils
     package: dbt-labs/dbt_utils
     version: 1.3.3
-sha1_hash: 2dff701aabc559b9b3367da24bc784c145664fd3
+  - git: https://github.com/brooklyn-data/dbt_artifacts.git
+    name: dbt_artifacts
+    revision: 4b7e6fef95ccf17476eb111c59ae81f4dada9b86
+sha1_hash: 017566da9efa7ed4f6853cb1ed3ed6229af2a3d3
