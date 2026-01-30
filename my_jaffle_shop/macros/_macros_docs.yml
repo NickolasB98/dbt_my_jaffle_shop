@@ -1,0 +1,20 @@
+macros:
+  - name: cents_to_dollars
+    description: Converts an amount in cents to dollars, rounding to a specified number of decimal places (default is 2)
+    arguments:
+      - name: column_name
+        type: string
+        description: The name of the column to convert
+      - name: decimals
+        type: integer
+        description: The number of decimal places to round to (default is 2)
+        default: 2
+    returns: "A SQL expression that converts an amount in cents to dollars, rounding to a specified number of decimal places"
+    examples:
+      - name: Convert an amount in cents to dollars
+        sql: "select {{ cents_to_dollars('amount') }} from payments"
+        result: "select round(amount / 100, 2) from payments"
+
+      - name: Convert an amount in cents to dollars with 4 decimal places
+        sql: "select {{ cents_to_dollars('amount', 4) }} from payments"
+        result: "select round(amount / 100, 4) from payments"
