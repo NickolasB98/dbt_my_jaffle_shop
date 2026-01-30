@@ -7,3 +7,6 @@ packages:
 
   - git: "https://github.com/brooklyn-data/dbt_artifacts.git"
     revision: 2.10.0
+
+  - package: gitlabhq/snowflake_spend
+    version: 1.4.0

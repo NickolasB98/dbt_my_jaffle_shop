@@ -8,7 +8,7 @@ with source as (
         {{ adapter.quote("PAYMENTMETHOD") }} as payment_method,
         {{ adapter.quote("STATUS") }} as payment_status,
         -- divide by 100 to convert from cents to dollars
-        {{ cents_to_dollars(adapter.quote("AMOUNT"), 4)}} as amount,
+        {{ cents_to_dollars(adapter.quote("AMOUNT"))}} as amount,
         {{ adapter.quote("CREATED") }} as created_at,
         {{ adapter.quote("_BATCHED_AT") }} as batched_at
 

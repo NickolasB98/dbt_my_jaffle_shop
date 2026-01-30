@@ -40,6 +40,9 @@ models:
     marts:
       +materialized: table
 
+    snowflake_spend:
+      +schema: staging
+
 # views are good for staging layer because they are cheap to create and always up to date (created each time dbt build is run)
 # tables are good for marts because they are faster to query and can be materialized (created once and overwritten with every dbt run)
 

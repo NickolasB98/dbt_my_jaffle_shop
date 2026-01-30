@@ -4,5 +4,3 @@ macros:
     arguments:
       - name: column_name
         description: The name of the column to convert
-      - name: decimal_places
-        description: The number of decimal places to round to
