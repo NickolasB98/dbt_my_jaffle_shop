@@ -8,4 +8,7 @@ packages:
   - git: https://github.com/brooklyn-data/dbt_artifacts.git
     name: dbt_artifacts
     revision: 4b7e6fef95ccf17476eb111c59ae81f4dada9b86
-sha1_hash: 017566da9efa7ed4f6853cb1ed3ed6229af2a3d3
+  - name: snowflake_spend
+    package: gitlabhq/snowflake_spend
+    version: 1.4.0
+sha1_hash: 48e6190c289d05a85bcf295487d7501dfcd2d13c
