@@ -17,6 +17,14 @@ seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
+flags:
+  require_ref_prefers_node_package_to_root: true
+  warn_error_options:
+    silence:
+      - ConfigSourcePathDeprecation
+      - ConfigDataPathDeprecation
+      - DeprecationsSummary
+
 clean-targets: # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
@@ -40,8 +48,8 @@ models:
     marts:
       +materialized: table
 
-    snowflake_spend:
-      +schema: staging
+  snowflake_spend:
+    +schema: staging
 
 # views are good for staging layer because they are cheap to create and always up to date (created each time dbt build is run)
 # tables are good for marts because they are faster to query and can be materialized (created once and overwritten with every dbt run)

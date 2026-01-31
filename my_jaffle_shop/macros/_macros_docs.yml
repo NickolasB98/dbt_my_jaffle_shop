@@ -4,3 +4,12 @@ macros:
     arguments:
       - name: column_name
         description: The name of the column to convert
+  - name: grant_select
+    description: Generate a sql GRANT statement to give SELECT permissions for a set of tables.views to a specified role for a specified database.
+    arguments:
+      - name: schema
+        description: The name of the schema to grant permissions on
+      - name: role
+        description: The name of the role to grant permissions to
+      - name: database
+        description: The name of the database to grant permissions on
