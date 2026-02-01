@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: external_orders
+    database: RAW
+    schema: DBT_LEARN_JINJA
+    tables:
+      - name: orders__shopify
+      - name: orders__amazon
