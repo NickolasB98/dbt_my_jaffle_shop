@@ -301,9 +301,6 @@ Operational metrics focused on order fulfillment and returns.
 **Features**:
 - **Order Funnel**: Visual progression (Placed → Shipped → Completed)  
 - **Fulfillment Rate**: Percentage of completed orders
-
-<img width="837" height="295" alt="image" src="https://github.com/user-attachments/assets/4021025c-6b0a-4996-bb11-8ac279838f79" />
-
 - **Return Rate**: Track return trends and revenue impact
 
 <img width="831" height="668" alt="image" src="https://github.com/user-attachments/assets/b8690738-399b-4e41-91aa-189d4b3f0d5a" />
@@ -324,6 +321,9 @@ Operational metrics focused on order fulfillment and returns.
 
   
 - **Revenue Impact**: Realized vs pending vs lost revenue
+
+<img width="899" height="321" alt="image" src="https://github.com/user-attachments/assets/88f55535-64bf-4465-86a9-a3b285dd3cec" />
+
 
 **Business Value**:
 - Monitor fulfillment performance
