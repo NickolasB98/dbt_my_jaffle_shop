@@ -295,12 +295,34 @@ Deep dive into customer behavior and lifetime value analysis.
 
 Operational metrics focused on order fulfillment and returns.
 
+<img width="1192" height="589" alt="image" src="https://github.com/user-attachments/assets/24ce8e63-d530-47af-aada-f87620619fd6" />
+
+
 **Features**:
-- **Order Funnel**: Visual progression (Placed → Shipped → Completed)
+- **Order Funnel**: Visual progression (Placed → Shipped → Completed)  
 - **Fulfillment Rate**: Percentage of completed orders
+
+<img width="837" height="295" alt="image" src="https://github.com/user-attachments/assets/4021025c-6b0a-4996-bb11-8ac279838f79" />
+
 - **Return Rate**: Track return trends and revenue impact
+
+<img width="831" height="668" alt="image" src="https://github.com/user-attachments/assets/b8690738-399b-4e41-91aa-189d4b3f0d5a" />
+
+
+
 - **Daily/Weekly/Monthly Volume**: Order trend analysis
+
+<img width="791" height="458" alt="image" src="https://github.com/user-attachments/assets/419dab27-7317-4b32-af61-de2601ba876d" />
+
+
+<img width="815" height="521" alt="image" src="https://github.com/user-attachments/assets/085d663a-4b2c-4c24-a941-88045ad12dab" />
+
+  
 - **Return Analysis**: Detailed breakdown of returned orders
+
+<img width="771" height="684" alt="image" src="https://github.com/user-attachments/assets/99a12eba-68d9-4eec-b29a-1e2fd54bc9a2" />
+
+  
 - **Revenue Impact**: Realized vs pending vs lost revenue
 
 **Business Value**:
