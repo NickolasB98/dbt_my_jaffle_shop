@@ -225,11 +225,23 @@ The main executive dashboard providing a high-level business overview.
 
 **Features**:
 - **KPI Cards**: Total Revenue, Orders, Customers, Avg Order Value (with sparklines)
+  
+  <img width="1164" height="421" alt="image" src="https://github.com/user-attachments/assets/634b4c20-eb24-4151-ba76-16eada85be51" />
+
 - **Revenue Trends**: Monthly revenue line chart
 - **Order Status Breakdown**: Revenue by status (completed, shipped, returned, etc.)
+  
+  <img width="800" height="462" alt="image" src="https://github.com/user-attachments/assets/0065e7ce-1603-432d-9251-356b36b862ff" />
+
 - **Customer Order Frequency**: Distribution of repeat vs one-time buyers
 - **Top Customers**: Ranked by total spend
+
+<img width="821" height="495" alt="image" src="https://github.com/user-attachments/assets/2aa84f58-cc5b-47d9-80ce-86b5fffdf83a" />
+  
 - **Recent Orders Table**: Detailed transaction view
+
+<img width="790" height="513" alt="image" src="https://github.com/user-attachments/assets/6488cb4b-4b38-4904-a423-a14bed38989a" />
+
 
 **Interactive Filters**:
 - Date range picker
