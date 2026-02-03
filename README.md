@@ -242,13 +242,34 @@ The main executive dashboard providing a high-level business overview.
 
 Deep dive into customer behavior and lifetime value analysis.
 
+<img width="1186" height="477" alt="image" src="https://github.com/user-attachments/assets/b11058dc-0223-4194-9bfa-3d8f160ba227" />
+
+
 **Features**:
 - **Customer Segmentation**: High/Medium/Low value tiers based on spend percentiles
 - **Order Frequency Distribution**: 1, 2, 3, 4-5, 6+ orders buckets
+  
+  <img width="793" height="673" alt="image" src="https://github.com/user-attachments/assets/81fc5593-170f-4150-b20c-7da1089643b7" />
+
 - **Cohort Analysis**: Customer acquisition trends by first order month
+  
+<img width="800" height="550" alt="image" src="https://github.com/user-attachments/assets/efe17d42-222d-4ba4-a6bb-7c7ceaaf94c4" />
+
+  
 - **LTV Analysis**: Top customers and lifetime value distribution
+
+<img width="771" height="536" alt="image" src="https://github.com/user-attachments/assets/a27bf2d4-d0be-4990-9759-4216e5a86ef8" />
+
+  
 - **At-Risk Identification**: Customers inactive for 30+ days
+
+<img width="767" height="570" alt="image" src="https://github.com/user-attachments/assets/bc6005c2-f14c-4cdb-b734-824cdc2f2ed5" />
+
+  
 - **Inactive Customers**: Never-ordered customer list
+
+<img width="767" height="612" alt="image" src="https://github.com/user-attachments/assets/2f8f7e2b-2430-4b89-a663-08beff05bdab" />
+
 
 **Business Value**:
 - Identify high-value customers for retention programs
