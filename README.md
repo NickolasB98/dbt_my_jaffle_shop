@@ -12,12 +12,12 @@ This project simulates a real-world e-commerce analytics platform for "Jaffle Sh
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           PROJECT ARCHITECTURE                                   │
+│                           PROJECT ARCHITECTURE                                  │
 ├─────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                  │
+│                                                                                 │
 │   S3 Bucket          Snowflake            dbt                 Streamlit         │
 │   (Raw Data)         (Data Warehouse)     (Transformations)   (Dashboards)      │
-│                                                                                  │
+│                                                                                 │
 │   ┌─────────┐        ┌─────────────┐      ┌─────────────┐     ┌─────────────┐   │
 │   │CUSTOMERS│───────>│  RAW.       │      │  STAGING    │     │  Analytics  │   │
 │   │ORDERS   │        │  JAFFLE_SHOP│─────>│  LAYER      │────>│  Dashboard  │   │
@@ -29,7 +29,7 @@ This project simulates a real-world e-commerce analytics platform for "Jaffle Sh
 │                                           │   MARTS     │────>│  Dashboard  │   │
 │                                           │   (Tables)  │     └─────────────┘   │
 │                                           └─────────────┘                       │
-│                                                                                  │
+│                                                                                 │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -173,11 +173,11 @@ my_jaffle_shop/
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                              DATA LINEAGE                                        │
+│                              DATA LINEAGE                                       │
 ├─────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                  │
-│   SOURCES                    STAGING                      MARTS                  │
-│                                                                                  │
+│                                                                                 │
+│   SOURCES                    STAGING                      MARTS                 │
+│                                                                                 │
 │   RAW.JAFFLE_SHOP.          stg_jaffle_shop__            ┌─────────────────┐    │
 │   CUSTOMERS ───────────────> customers ─────────────────>│  DIM_CUSTOMERS  │    │
 │                                    │                     │  (marketing)    │    │
@@ -196,7 +196,7 @@ my_jaffle_shop/
 │                                                          │INT_DAILY_REVENUE│    │
 │                                                          │   (core)        │    │
 │                                                          └─────────────────┘    │
-│                                                                                  │
+│                                                                                 │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
