@@ -225,11 +225,23 @@ The main executive dashboard providing a high-level business overview.
 
 **Features**:
 - **KPI Cards**: Total Revenue, Orders, Customers, Avg Order Value (with sparklines)
+  
+  <img width="1164" height="421" alt="image" src="https://github.com/user-attachments/assets/634b4c20-eb24-4151-ba76-16eada85be51" />
+
 - **Revenue Trends**: Monthly revenue line chart
 - **Order Status Breakdown**: Revenue by status (completed, shipped, returned, etc.)
+  
+  <img width="800" height="462" alt="image" src="https://github.com/user-attachments/assets/0065e7ce-1603-432d-9251-356b36b862ff" />
+
 - **Customer Order Frequency**: Distribution of repeat vs one-time buyers
 - **Top Customers**: Ranked by total spend
+
+<img width="821" height="495" alt="image" src="https://github.com/user-attachments/assets/2aa84f58-cc5b-47d9-80ce-86b5fffdf83a" />
+  
 - **Recent Orders Table**: Detailed transaction view
+
+<img width="790" height="513" alt="image" src="https://github.com/user-attachments/assets/6488cb4b-4b38-4904-a423-a14bed38989a" />
+
 
 **Interactive Filters**:
 - Date range picker
@@ -242,13 +254,34 @@ The main executive dashboard providing a high-level business overview.
 
 Deep dive into customer behavior and lifetime value analysis.
 
+<img width="1186" height="477" alt="image" src="https://github.com/user-attachments/assets/b11058dc-0223-4194-9bfa-3d8f160ba227" />
+
+
 **Features**:
 - **Customer Segmentation**: High/Medium/Low value tiers based on spend percentiles
 - **Order Frequency Distribution**: 1, 2, 3, 4-5, 6+ orders buckets
+  
+  <img width="793" height="673" alt="image" src="https://github.com/user-attachments/assets/81fc5593-170f-4150-b20c-7da1089643b7" />
+
 - **Cohort Analysis**: Customer acquisition trends by first order month
+  
+<img width="800" height="550" alt="image" src="https://github.com/user-attachments/assets/efe17d42-222d-4ba4-a6bb-7c7ceaaf94c4" />
+
+  
 - **LTV Analysis**: Top customers and lifetime value distribution
+
+<img width="771" height="536" alt="image" src="https://github.com/user-attachments/assets/a27bf2d4-d0be-4990-9759-4216e5a86ef8" />
+
+  
 - **At-Risk Identification**: Customers inactive for 30+ days
+
+<img width="767" height="570" alt="image" src="https://github.com/user-attachments/assets/bc6005c2-f14c-4cdb-b734-824cdc2f2ed5" />
+
+  
 - **Inactive Customers**: Never-ordered customer list
+
+<img width="767" height="612" alt="image" src="https://github.com/user-attachments/assets/2f8f7e2b-2430-4b89-a663-08beff05bdab" />
+
 
 **Business Value**:
 - Identify high-value customers for retention programs
@@ -262,13 +295,35 @@ Deep dive into customer behavior and lifetime value analysis.
 
 Operational metrics focused on order fulfillment and returns.
 
+<img width="1192" height="589" alt="image" src="https://github.com/user-attachments/assets/24ce8e63-d530-47af-aada-f87620619fd6" />
+
+
 **Features**:
-- **Order Funnel**: Visual progression (Placed → Shipped → Completed)
+- **Order Funnel**: Visual progression (Placed → Shipped → Completed)  
 - **Fulfillment Rate**: Percentage of completed orders
 - **Return Rate**: Track return trends and revenue impact
+
+<img width="831" height="668" alt="image" src="https://github.com/user-attachments/assets/b8690738-399b-4e41-91aa-189d4b3f0d5a" />
+
+
+
 - **Daily/Weekly/Monthly Volume**: Order trend analysis
+
+<img width="791" height="458" alt="image" src="https://github.com/user-attachments/assets/419dab27-7317-4b32-af61-de2601ba876d" />
+
+
+<img width="815" height="521" alt="image" src="https://github.com/user-attachments/assets/085d663a-4b2c-4c24-a941-88045ad12dab" />
+
+  
 - **Return Analysis**: Detailed breakdown of returned orders
+
+<img width="771" height="684" alt="image" src="https://github.com/user-attachments/assets/99a12eba-68d9-4eec-b29a-1e2fd54bc9a2" />
+
+  
 - **Revenue Impact**: Realized vs pending vs lost revenue
+
+<img width="899" height="321" alt="image" src="https://github.com/user-attachments/assets/88f55535-64bf-4465-86a9-a3b285dd3cec" />
+
 
 **Business Value**:
 - Monitor fulfillment performance
